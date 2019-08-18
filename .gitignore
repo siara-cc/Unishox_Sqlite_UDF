@@ -1,0 +1,7 @@
+*.db
+*.dll
+*.dylib*
+*.so
+.DS_Store
+.vscode
+
