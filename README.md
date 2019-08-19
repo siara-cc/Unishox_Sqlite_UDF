@@ -6,7 +6,14 @@ This Sqlite3 [loadable extension](https://www.sqlite.org/loadext.html) exposes t
 
 Unishox is a compression technique developed for reducing storage size of Short Strings.  Details of how it works can be found [here](https://github.com/siara-cc/Unishox).
 
-In general it can achieve upto 60% size reduction for Short Strings.
+In general it can achieve upto 65% size reduction for Unicode Short Strings.
+
+# Applications
+
+- Compression for low memory devices such as Arduino and ESP8266
+- Compression of Chat application text exchange include Emojis
+- Storing compressed text in database
+- Faster retrieval speed when used as join keys
 
 # This project
 
