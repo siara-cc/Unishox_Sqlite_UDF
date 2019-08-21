@@ -13,7 +13,8 @@ In general it can achieve upto 65% size reduction for Unicode Short Strings.
 - Compression for low memory devices such as Arduino and ESP8266
 - Compression of Chat application text exchange include Emojis
 - Storing compressed text in database
-- Faster retrieval speed when used as join keys
+
+![](https://github.com/siara-cc/Unishox/blob/master/Banner1.png?raw=true)
 
 # This project
 
@@ -43,7 +44,7 @@ After successful compilation, run `sqlite3` from the same folder to open the Sql
 create table test (lang text, b1 blob);
 insert into test values ('English', unishox1c('Beauty is not in the face. Beauty is a light in the heart.'));
 insert into test values ('Spanish', unishox1c('La belleza no está en la cara. La belleza es una luz en el corazón.'));
-insert into test values ('German', unishox1c('Schönheit ist nicht im Gesicht. Schönheit ist ein Licht im Herzen.'));
+insert into test values ('German', unishox1c('Schönheit findet man nicht im Gesicht. Schönheit strahlt aus dem Herzen.'));
 insert into test values ('French', unishox1c('La beauté est pas dans le visage. La beauté est la lumière dans le coeur.'));
 insert into test values ('Russian', unishox1c('Красота не в лицо. Красота - это свет в сердце.'));
 insert into test values ('Arabic', unishox1c(' الجمال ليس في الوجه. الجمال هو النور الذي في القلب.'));
